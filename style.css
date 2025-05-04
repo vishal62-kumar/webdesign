@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: sticky;
+    top: 0px;
+}
+.logo{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+.left h1{
+    color: white;
+    padding: .8rem;
+}
+.right button{
+    border: none;
+    background-color: inherit;
+    color: white;
+    padding: .1rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+.search{
+    background-color: grey;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.search_box{
+    width:20rem;
+    max-width: 60%;
+    border-radius: 8px;
+    height: 1.5rem;
+    font-size: 1rem;
+    border: none;
+    padding: .3rem;
+}
+.search>button{
+    font-size: .8rem;
+    margin-left: .3rem;
+    border-radius: 8px;
+    padding: .4rem;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.reel{
+    height:20rem;
+    background-image: url("https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1746187832075_1240x300wvedikajpeg.jpg");
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+}
+.reel h1{
+    color: white;
+    padding-bottom: 1rem;
+}
+.reel button{
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.7rem;
+    padding: .5rem;
+    cursor: pointer;
+}
+.mover h1{
+    text-align: center;
+    padding: .5rem;
+}
+.card{
+    padding: 0.3rem;
+    border-radius: 8px;
+    height: 330px;
+    width: 200px;
+    background-color: grey;
+}
+.movies{
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.card img{
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+}
+.mover .card h2{
+    text-align: center;
+}
